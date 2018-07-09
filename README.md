@@ -131,3 +131,12 @@ Shows the roles defined in your DAO with all the relevant info: where they are d
 #### `aragon devchain`
 
 Starts a local ganache test chain for development. This is done automatically with `aragon run` also if you don't have one already running.
+
+#### `aragon contracts`
+
+
+```
+$ contracts <truffle-command>
+```
+
+Passes a command directly to truffle through the aragon CLI tool. This will not start a ganache test chain so running `aragon devchain` first is necesary.
